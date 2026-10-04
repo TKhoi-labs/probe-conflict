@@ -2,11 +2,6 @@
 # enforcement lives in CI. This file is owned by core so that it exists in
 # every generated repo; commits and security contribute hook entries.
 ---
-pre-push:
-  commands:
-    health:
-      run: just health
-
 commit-msg:
   commands:
     commitlint:

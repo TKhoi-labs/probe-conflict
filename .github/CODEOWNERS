@@ -3,5 +3,4 @@
 
 # Template-managed paths: the next sync rewrites these, so reviewing changes
 # here means reviewing the template, not this repository.
-/.copier-answers.yml @TKhoi-labs/maintainers
 /.github/workflows/ @TKhoi-labs/maintainers
